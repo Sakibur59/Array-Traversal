@@ -21,3 +21,6 @@ let e ="fardin khan";
 
 console.log(e.slice(2,4));
 
+let f ='MD Sakibur Rahman';
+
+console.log(f.split(" ").reverse().join(" | "));
