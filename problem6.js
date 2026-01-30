@@ -1,3 +1,9 @@
-let a = "md sakibur rahman"
+let a = "md sakibur rahman";
 
-console.log(a.toUpperCase())
+console.log(a.toUpperCase());
+
+
+let b = "MD SAKIBUR RAHMAN";
+
+console.log(b.toLowerCase())
+
