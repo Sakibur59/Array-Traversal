@@ -2,8 +2,18 @@ let a = "md sakibur rahman";
 
 console.log(a.toUpperCase());
 
-
 let b = "MD SAKIBUR RAHMAN";
 
-console.log(b.toLowerCase())
+console.log(b.toLowerCase());
+
+let c = "  fardin  ";
+
+let d = "fardin";
+
+if (c.trim() === d) {
+  console.log(c.trim());
+} else {
+  console.log("MissMatch");
+}
+
 
