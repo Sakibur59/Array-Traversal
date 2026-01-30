@@ -17,3 +17,7 @@ if (c.trim() === d) {
 }
 
 
+let e ="fardin khan";
+
+console.log(e.slice(2,4));
+
