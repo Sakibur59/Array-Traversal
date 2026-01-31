@@ -15,3 +15,10 @@ function add(num1,num2){
 const result = add(20,1);
 console.log(result)
 
+function square(number){
+
+    let total = number*number
+    console.log("square the given parameter: ",total);
+}
+
+square(10);
