@@ -22,25 +22,33 @@ function square(number) {
 square(10);
 
 function double(number, value) {
-    console.log(number,value)
-    if(value === true){
-        let result = number *4;
-        return result;
-    } else {
-        let result = number *2;
-        return result;
-    }
+  console.log(number, value);
+  if (value === true) {
+    let result = number * 4;
+    return result;
+  } else {
+    let result = number * 2;
+    return result;
+  }
 }
 
-console.log(double(40,true));
-console.log(double(20,false));
+console.log(double(40, true));
+console.log(double(20, false));
 
-
-function elements(number){
-    const len = number.length;
-    return len;
+function elements(number) {
+  const len = number.length;
+  return len;
 }
 
-console.log("Array length: ",elements([12,31,4,51,7,51,54,13,45]))
+console.log("Array length: ", elements([12, 31, 4, 51, 7, 51, 54, 13, 45]));
 
-// let arrLen=
+function sum(number) {
+  let total = 0;
+  for (const element of number) {
+    total = total + element;
+  }
+  return total;
+}
+
+let total = sum([2, 4, 6, 8]);
+console.log("Sum of all numbers is array :", total);
