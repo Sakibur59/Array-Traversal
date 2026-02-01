@@ -1,0 +1,6 @@
+console.log(Math.max(12,3,2,34,4,5,6,7,5,578,0))
+console.log(Math.min(12,3,2,345,578,1))
+console.log(Math.round(3.5))
+console.log(Math.floor(1.99))
+console.log(Math.ceil(5.1))
+console.log(Math.round(Math.random()*10))
