@@ -7,3 +7,11 @@ function inchToFeet(inch) {
 }
 
 console.log(inchToFeet(70));
+
+
+function mileToKm(mile) {
+    const km = mile * 1.60934;
+    return km;
+}
+
+console.log(mileToKm(10));
